@@ -1,0 +1,25 @@
+{
+  "id": "uk.co.raginghormone.rrradio",
+  "name": "RRRadio",
+  "description": "When I got the music I got a place to go.",
+  "version": "0.1.0",
+  "launch_path": "/index.html",
+  "icons": {
+    "256": "/images/icon-256.png",
+    "128": "/images/icon-128.png",
+    "64": "/images/icon-64.png",
+    "48": "/images/icon-48.png"
+  },
+  "theme_color": "#FFFFFF",
+  "developer": {
+    "name": "Steve England",
+    "url": "https://raginghormone.co.uk"
+  },
+  "type": "privileged",
+  "permissions": {
+    "audio-channel-content": {
+      "description": "Required to play audio in the background."
+    }
+  },
+  "default_locale": "en"
+}
